@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>my_calculator</title>
+</head>
+<body>
+<center><h1>Basic operation calculator</h1></center><br><br>
+{{"Output : ",abc}}<br><br>
+<center>
+    <form action="http://localhost:5000/" method="POST">
+        <div>
+            First Number:<input type="text" name="fnum" required><br><br>
+            Second Number:<input type="text" name="snum" required><br><br>
+            Options:<select name="calc">
+            <option value="0">-----select-----</option>
+            <option value="1">Sum</option>
+            <option value="2">Subtraction</option>
+            <option value="3">Multi</option>
+            <option value="4">Division</option>
+        </select><br><br>
+            <input type="submit" required><br><br>
+        </div>
+    </form>
+</center>
+
+</body>
+</html>
